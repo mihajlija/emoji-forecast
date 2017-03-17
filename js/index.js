@@ -80,7 +80,7 @@ function getScene(icon) {
   if ( icon=="09d") icon="10d";
   // rainy night
   if ( icon=="09n") icon="10n";
-  var url="http://tildedagger.com/portfolio/" + icon + ".png";
+  var url="img/" + icon + ".png";
   $("#icon").html("<img src=" + url + " />");
 }
 
