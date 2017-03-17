@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Emoji Forecast</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <header>
+  <h2>Emoji Forecast</h2>
+  <p id="date"></p>
+</header>
+
+<section>
+  <div class="from-me">  
+<div id="city">city</div>
+  </div>
+    <div class="clear"></div>
+<div class="from-them">
+  <div id="icon"><img src="http://tildedagger.com/portfolio/00.png"/></div>
+  <p><span id="temp">temperature</span>&deg</p>
+<p id="desc">weather</p>
+  </div>
+</section>
+<div class="clear"></clear>
+<footer>
+  <form>
+    <p>Check weather:</p>
+    <input type="text" name="city" placeholder="City + Enter" onfocus="if(this.value == 'City + Enter') { this.value = ''; }" value="City + Enter"/>
+        </form>
+  <div id="metric" class="active units">Celsuius</div>
+<div id="imperial" class="units">Fahrenheit</div>
+</footer>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='https://raw.githubusercontent.com/jacwright/date.format/master/date.format.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
